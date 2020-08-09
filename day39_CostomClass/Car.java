@@ -20,8 +20,13 @@ public class Car {
                 price=carPrice;
         }
 
+        public void getInfo(){
 
+                System.out.println(year+" "+brand+" "+color+", "+mileage+", "+model+", $"+price);
+        }
+        public void start(){
+                System.out.println(brand+" "+model+" is started");
+        }
 
-
-    }
+}
 

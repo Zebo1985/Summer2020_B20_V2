@@ -35,7 +35,10 @@ public class CarObjects {
         System.out.println(car2.color);
         System.out.println(car2.mileage);
         System.out.println(car2.price);
-
+Car car3=new Car();
+        car3.setInfo("Audi","A7",2017,"White",32000,35000);
+Car car4= new Car();
+car4.setInfo("Jeep","Wramgler",1890,"Blue",3000, 75000);
 
 
 
